@@ -1,0 +1,29 @@
+[
+    {
+      "codigo": "162",
+      "descricao": "Dirigir veículo sem possuir Carteira Nacional de Habilitação (CNH)",
+      "enquadramento": "501-10",
+      "gravidade": "Gravíssima",
+      "penalidade": "Multa (R$ 880,41)",
+      "pontos": 7,
+      "medida_administrativa": "Remoção do veículo",
+      "possui_recurso": true,
+      "artigo": "162",
+      "paragrafo": null,
+      "inciso": null
+    },
+    {
+      "codigo": "230-XVIII",
+      "descricao": "Conduzir veículo em mau estado de conservação",
+      "enquadramento": "667-10",
+      "gravidade": "Grave",
+      "penalidade": "Multa (R$ 195,23)",
+      "pontos": 5,
+      "medida_administrativa": "Retenção do veículo para regularização",
+      "possui_recurso": true,
+      "artigo": "230",
+      "paragrafo": null,
+      "inciso": "XVIII"
+    }
+  ]
+  
