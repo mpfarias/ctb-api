@@ -4,9 +4,13 @@ import swaggerUi from 'swagger-ui-express'
 import { swaggerSpec } from './docs/swagger.js'
 
 const app = express()
-const PORT = 3000
+const PORT =  process.env.PORT || 3000
 
 app.use(express.json())
+
+app.get('/', (req, res) => {
+  res.send('API de Infrações do CTB!')
+})
 
 app.use('/infracoes', infracaoRoutes)
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
