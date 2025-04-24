@@ -12,11 +12,11 @@ export const getInfracoes = async (req, res) => {
   res.json(infracoes)
 }
 
-export const getInfracaoPorCodigo = async (req, res) => {
-  const { codigo } = req.params
+export const getInfracaoPorArtigo = async (req, res) => {
+  const { artigo } = req.params
   const data = await fs.readFile(dataPath, 'utf-8')
   const infracoes = JSON.parse(data)
-  const infracao = infracoes.find(i => i.codigo === codigo)
+  const infracao = infracoes.find(i => String(i.artigo) === String(artigo))
 
   if (!infracao) {
     return res.status(404).json({ mensagem: 'Infração não encontrada' })

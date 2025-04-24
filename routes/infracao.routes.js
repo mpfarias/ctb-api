@@ -1,5 +1,5 @@
 import express from 'express'
-import { getInfracoes, getInfracaoPorCodigo } from '../controllers/infracao.controller.js'
+import { getInfracoes, getInfracaoPorArtigo } from '../controllers/infracao.controller.js'
 
 const router = express.Router()
 
@@ -17,12 +17,12 @@ router.get('/', getInfracoes)
 
 /**
  * @swagger
- * /infracoes/{codigo}:
+ * /infracoes/{artigo}:
  *   get:
- *     summary: Retorna uma infração específica por código
+ *     summary: Retorna uma infração específica por artigo
  *     parameters:
  *       - in: path
- *         name: codigo
+ *         name: artigo
  *         required: true
  *         schema:
  *           type: string
@@ -32,6 +32,6 @@ router.get('/', getInfracoes)
  *       404:
  *         description: Infração não encontrada
  */
-router.get('/:codigo', getInfracaoPorCodigo)
+router.get('/:artigo', getInfracaoPorArtigo)
 
 export default router

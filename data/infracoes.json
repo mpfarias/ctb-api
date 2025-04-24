@@ -1,29 +1,2970 @@
 [
-    {
-      "codigo": "162",
-      "descricao": "Dirigir veículo sem possuir Carteira Nacional de Habilitação (CNH)",
-      "enquadramento": "501-10",
-      "gravidade": "Gravíssima",
-      "penalidade": "Multa (R$ 880,41)",
-      "pontos": 7,
-      "medida_administrativa": "Remoção do veículo",
-      "possui_recurso": true,
-      "artigo": "162",
-      "paragrafo": null,
-      "inciso": null
+  {
+    "artigo": 162,
+    "descricao": "Dirigir veículo:",
+    "incisos": [
+      {
+        "inciso": "I",
+        "codigo": "516-91",
+        "descricao": "Sem possuir Carteira Nacional de Habilitação, Permissão para Dirigir ou Autorização para Conduzir Ciclomotor",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (três vezes)",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso I"
+      },
+      {
+        "inciso": "II",
+        "codigo": "517-91",
+        "descricao": "Com CNH, Permissão para Dirigir ou ACC cassada ou com suspensão do direito de dirigir",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (três vezes)",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação e retenção do veículo até a apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso II"
+      },
+      {
+        "inciso": "III",
+        "codigo": "518-91",
+        "descricao": "Com CNH ou Permissão para Dirigir de categoria diferente da do veículo que esteja conduzindo",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (duas vezes)",
+        "valor_multa": 586.94,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso III"
+      },
+      {
+        "inciso": "V",
+        "codigo": "520-50",
+        "descricao": "Com CNH vencida há mais de 30 dias",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso V"
+      },
+      {
+        "inciso": "VI",
+        "codigo": "521-90",
+        "descricao": "Sem usar lentes corretoras de visão, aparelho auxiliar de audição, de prótese física ou adaptações exigidas",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até o saneamento da irregularidade ou apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso VI"
+      },
+      {
+        "inciso": "VII",
+        "codigo": "522-91",
+        "descricao": "Sem possuir os cursos especializados ou específicos obrigatórios",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
+        "base_legal_completa": "CTB - Art. 164, Inciso VII"
+      }
+    ]
+  },
+  {
+    "artigo": 163,
+    "codigo": "523-91",
+    "descricao": "Entregar a direção do veículo a pessoa nas condições previstas no art. 162",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (três vezes)",
+    "valor_multa": 880.41,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e retenção do veículo até a apresentação de condutor habilitado",
+    "base_legal_completa": "CTB - Art. 163"
+  },
+  {
+    "artigo": 164,
+    "codigo": "524-91",
+    "descricao": "Permitir que pessoa nas condições referidas nos incisos do art. 162 tome posse do veículo automotor e passe a conduzi-lo na via",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (três vezes)",
+    "valor_multa": 880.41,
+    "pontos": 7,
+    "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
+    "base_legal_completa": "CTB - Art. 164"
+  },
+  {
+    "codigo": "516-03",
+    "artigo": 165,
+    "descricao": "Dirigir sob a influência de álcool ou de qualquer outra substância psicoativa que determine dependência.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes) e suspensão do direito de dirigir por 12 (doze) meses",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e retenção do veículo, observado o disposto no § 4º do art. 270 do CTB",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
     },
-    {
-      "codigo": "230-XVIII",
-      "descricao": "Conduzir veículo em mau estado de conservação",
-      "enquadramento": "667-10",
-      "gravidade": "Grave",
-      "penalidade": "Multa (R$ 195,23)",
-      "pontos": 5,
-      "medida_administrativa": "Retenção do veículo para regularização",
-      "possui_recurso": true,
-      "artigo": "230",
-      "paragrafo": null,
-      "inciso": "XVIII"
-    }
-  ]
-  
+    "base_legal_completa": "CTB - Art. 165"
+  },
+  {
+    "codigo": "516-04",
+    "artigo": "165-A",
+    "descricao": "Recusar-se a ser submetido a teste, exame clínico, perícia ou outro procedimento que permita certificar influência de álcool ou outra substância psicoativa, conforme o art. 277 do CTB.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes) e suspensão do direito de dirigir por 12 (doze) meses",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e retenção do veículo, conforme § 4º do art. 270 do CTB",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 165-A"
+  },
+  {
+    "codigo": "516-21",
+    "artigo": "165-B",
+    "descricao": "Dirigir veículo sem realizar o exame toxicológico previsto no art. 148-A do CTB.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (cinco vezes)",
+    "valor_multa": 1467.35,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro e suspensão do direito de dirigir",
+      "valor_multa_reincidencia": 2934.70
+    },
+    "observacao": "A infração configura-se também quando o condutor dirige após 30 dias do vencimento do prazo previsto no § 2º do art. 148-A do CTB.",
+    "base_legal_completa": "CTB - Art. 165-B"
+  },
+  {
+    "codigo": "516-22",
+    "artigo": "165-C",
+    "descricao": "Dirigir veículo tendo obtido resultado positivo no exame toxicológico previsto no caput do art. 148-A do CTB.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (cinco vezes)",
+    "valor_multa": 1467.35,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro e suspensão do direito de dirigir",
+      "valor_multa_reincidencia": 2934.70
+    },
+    "base_legal_completa": "CTB - Art. 165-C"
+  },
+  {
+    "codigo": "516-23",
+    "artigo": "165-D",
+    "descricao": "Deixar de realizar o exame toxicológico previsto no § 2º do art. 148-A do CTB, após 30 (trinta) dias do vencimento do prazo estabelecido.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (cinco vezes)",
+    "valor_multa": 1467.35,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 165-D"
+  },
+  {
+    "codigo": "517-00",
+    "artigo": 166,
+    "descricao": "Confiar ou entregar a direção de veículo a pessoa que, mesmo habilitada, por seu estado físico ou psíquico, não estiver em condições de dirigi-lo com segurança.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 166"
+  },
+  {
+    "codigo": "518-00",
+    "artigo": 167,
+    "descricao": "Deixar o condutor ou passageiro de usar o cinto de segurança, conforme previsto no art. 65.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção do veículo até colocação do cinto pelo infrator",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 167"
+  },
+  {
+    "codigo": "518-10",
+    "artigo": 168,
+    "descricao": "Transportar crianças em veículo automotor sem observância das normas de segurança especiais estabelecidas neste Código.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "retenção do veículo até que a irregularidade seja sanada",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 168"
+  },
+  {
+    "codigo": "521-70",
+    "artigo": 169,
+    "descricao": "Dirigir sem atenção ou sem os cuidados indispensáveis à segurança.",
+    "gravidade": "leve",
+    "penalidade": "multa",
+    "valor_multa": 88.38,
+    "pontos": 3,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 169"
+  },
+  {
+    "codigo": "518-61",
+    "artigo": 170,
+    "descricao": "Dirigir ameaçando os pedestres que estejam atravessando a via pública, ou os demais veículos.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa e suspensão do direito de dirigir",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "retenção do veículo e recolhimento do documento de habilitação",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 170"
+  },
+  {
+    "codigo": "522-51",
+    "artigo": 171,
+    "descricao": "Usar o veículo para arremessar, sobre os pedestres ou veículos, água ou detritos.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 171"
+  },
+  {
+    "codigo": "523-31",
+    "artigo": 172,
+    "descricao": "Atirar do veículo ou abandonar na via objetos ou substâncias.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 172"
+  },
+  {
+    "codigo": "516-40",
+    "artigo": 173,
+    "descricao": "Disputar corrida.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes), suspensão do direito de dirigir e apreensão do veículo",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e remoção do veículo",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 173"
+  },
+  {
+    "codigo": "516-50",
+    "artigo": 174,
+    "descricao": "Promover, na via, competição, eventos organizados, exibição e demonstração de perícia em manobra de veículo, ou deles participar, como condutor, sem permissão da autoridade de trânsito com circunscrição sobre a via.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes), suspensão do direito de dirigir e apreensão do veículo",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e remoção do veículo",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 174"
+  },
+  {
+    "codigo": "516-60",
+    "artigo": 175,
+    "descricao": "Utilizar-se de veículo para demonstrar ou exibir manobra perigosa, mediante arrancada brusca, derrapagem ou frenagem com deslizamento ou arrastamento de pneus.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes), suspensão do direito de dirigir e apreensão do veículo",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": "recolhimento do documento de habilitação e remoção do veículo",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 175"
+  },
+  {
+    "artigo": 176,
+    "descricao": "Deixar o condutor envolvido em sinistro com vítima:",
+    "incisos": [
+      {
+        "codigo": "516-51",
+        "inciso": "I",
+        "descricao": "Deixar de prestar ou providenciar socorro à vítima, podendo fazê-lo.",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes) e suspensão do direito de dirigir",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 176, Inciso I"
+      },
+      {
+        "codigo": "516-52",
+        "inciso": "II",
+        "descricao": "Deixar de adotar providências, podendo fazê-lo, no sentido de evitar perigo para o trânsito no local.",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes) e suspensão do direito de dirigir",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 176, Inciso II"
+      },
+      {
+        "codigo": "516-53",
+        "inciso": "III",
+        "descricao": "Deixar de preservar o local, de forma a facilitar os trabalhos da polícia e da perícia.",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes) e suspensão do direito de dirigir",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 176, Inciso III"
+      },
+      {
+        "codigo": "516-54",
+        "inciso": "IV",
+        "descricao": "Deixar de adotar providências para remover o veículo do local, quando determinadas por policial ou agente da autoridade de trânsito.",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes) e suspensão do direito de dirigir",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 176, Inciso IV"
+      },
+      {
+        "codigo": "516-55",
+        "inciso": "V",
+        "descricao": "Deixar de identificar-se ao policial e de lhe prestar informações necessárias à confecção do boletim de ocorrência.",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes) e suspensão do direito de dirigir",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "recolhimento do documento de habilitação",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 176, Inciso V"
+      }
+    ]
+  },
+  {
+    "codigo": "518-61",
+    "artigo": 177,
+    "descricao": "Deixar o condutor de prestar socorro à vítima de sinistro de trânsito quando solicitado pela autoridade e seus agentes.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 177"
+  },
+  {
+    "codigo": "519-31",
+    "artigo": 178,
+    "descricao": "Deixar o condutor envolvido em sinistro sem vítima de adotar providências para remover o veículo do local, quando necessária tal medida para assegurar a segurança e a fluidez do trânsito.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 178"
+  },
+  {
+    "artigo": 179,
+    "descricao": "Fazer ou deixar que se faça reparo em veículo na via pública, salvo nos casos de impedimento absoluto de sua remoção e em que o veículo esteja devidamente sinalizado.",
+    "incisos": [
+      {
+        "codigo": "518-51",
+        "inciso": "I",
+        "descricao": "Em pista de rolamento de rodovias e vias de trânsito rápido",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 179, Inciso I"
+      },
+      {
+        "codigo": "518-52",
+        "inciso": "II",
+        "descricao": "Nas demais vias",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 179, Inciso II"
+      }
+    ]
+  },
+  {
+    "codigo": "518-60",
+    "artigo": 180,
+    "descricao": "Ter seu veículo imobilizado na via por falta de combustível.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 180"
+  },
+  {
+    "artigo": 181,
+    "descricao": "Estacionar o veículo:",
+    "incisos": [
+      {
+        "codigo": "554-91",
+        "inciso": "I",
+        "descricao": "nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso I"
+      },
+      {
+        "codigo": "555-71",
+        "inciso": "II",
+        "descricao": "afastado da guia da calçada (meio-fio) de cinqüenta centímetros a um metro",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso II"
+      },
+      {
+        "codigo": "556-52",
+        "inciso": "III",
+        "descricao": "afastado da guia da calçada (meio-fio) a mais de um metro",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso III"
+      },
+      {
+        "codigo": "557-32",
+        "inciso": "IV",
+        "descricao": "em desacordo com as posições estabelecidas neste Código",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso IV"
+      },
+      {
+        "codigo": "558-13",
+        "inciso": "V",
+        "descricao": "na pista de rolamento das estradas, rodovias, vias de trânsito rápido e vias com acostamento",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso V"
+      },
+      {
+        "codigo": "559-95",
+        "inciso": "VI",
+        "descricao": "junto ou sobre hidrantes, registros de água ou tampas de poços de visita de galerias subterrâneas identificados pelo CONTRAN",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso VI"
+      },
+      {
+        "codigo": "560-16",
+        "inciso": "VII",
+        "descricao": "nos acostamentos, salvo motivo de força maior",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso VII"
+      },
+      {
+        "codigo": "561-98",
+        "inciso": "VIII",
+        "descricao": "no passeio, sobre faixa de pedestres, ciclovia, canteiros centrais, divisores de pista, marcas de canalização, gramados ou jardim público",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso VIII"
+      },
+      {
+        "codigo": "562-78",
+        "inciso": "IX",
+        "descricao": "onde houver guia de calçada (meio-fio) rebaixada para entrada ou saída de veículos",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso IX"
+      },
+      {
+        "codigo": "563-59",
+        "inciso": "X",
+        "descricao": "impedindo a movimentação de outro veículo",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso X"
+      },
+      {
+        "codigo": "554-21",
+        "inciso": "XI",
+        "descricao": "ao lado de outro veículo em fila dupla",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XI"
+      },
+      {
+        "codigo": "555-01",
+        "inciso": "XII",
+        "descricao": "na área de cruzamento de vias, prejudicando a circulação de veículos e pedestres",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XII"
+      },
+      {
+        "codigo": "556-90",
+        "inciso": "XIII",
+        "descricao": "em ponto de embarque ou desembarque de transporte coletivo ou em intervalo de 10 metros antes e depois do ponto",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XIII"
+      },
+      {
+        "codigo": "557-71",
+        "inciso": "XIV",
+        "descricao": "nos viadutos, pontes e túneis",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XIV"
+      },
+      {
+        "codigo": "558-51",
+        "inciso": "XV",
+        "descricao": "na contramão de direção",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 181, Inciso XV"
+      },
+      {
+        "codigo": "559-32",
+        "inciso": "XVI",
+        "descricao": "em aclive ou declive, sem freio e sem calço de segurança, quando veículo acima de 3.500 kg",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XVI"
+      },
+      {
+        "codigo": "560-08",
+        "inciso": "XVII",
+        "descricao": "em desacordo com a sinalização de Estacionamento Regulamentado",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XVII"
+      },
+      {
+        "codigo": "561-80",
+        "inciso": "XVIII",
+        "descricao": "em locais e horários proibidos por sinalização (Proibido Estacionar)",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XVIII"
+      },
+      {
+        "codigo": "562-61",
+        "inciso": "XIX",
+        "descricao": "em locais e horários proibidos por sinalização (Proibido Parar e Estacionar)",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XIX"
+      },
+      {
+        "codigo": "554-91",
+        "inciso": "XX",
+        "descricao": "nas vagas reservadas às pessoas com deficiência ou idosos, sem credencial",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 181, Inciso XX"
+      }
+    ]
+  },
+  {
+    "artigo": 182,
+    "descricao": "Parar o veículo:",
+    "incisos": [
+      {
+        "codigo": "563-41",
+        "inciso": "I",
+        "descricao": "nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso I"
+      },
+      {
+        "codigo": "564-21",
+        "inciso": "II",
+        "descricao": "afastado da guia da calçada (meio-fio) de cinquenta centímetros a um metro",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso II"
+      },
+      {
+        "codigo": "565-01",
+        "inciso": "III",
+        "descricao": "afastado da guia da calçada (meio-fio) a mais de um metro",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso III"
+      },
+      {
+        "codigo": "566-90",
+        "inciso": "IV",
+        "descricao": "em desacordo com as posições estabelecidas neste Código",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso IV"
+      },
+      {
+        "codigo": "567-71",
+        "inciso": "V",
+        "descricao": "na pista de rolamento das estradas, das rodovias, das vias de trânsito rápido e das demais vias dotadas de acostamento",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso V"
+      },
+      {
+        "codigo": "568-51",
+        "inciso": "VI",
+        "descricao": "no passeio ou sobre faixa destinada a pedestres, nas ilhas, refúgios, canteiros centrais e divisores de pista de rolamento e marcas de canalização",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso VI"
+      },
+      {
+        "codigo": "569-32",
+        "inciso": "VII",
+        "descricao": "na área de cruzamento de vias, prejudicando a circulação de veículos e pedestres",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso VII"
+      },
+      {
+        "codigo": "570-08",
+        "inciso": "VIII",
+        "descricao": "nos viadutos, pontes e túneis",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso VIII"
+      },
+      {
+        "codigo": "571-80",
+        "inciso": "IX",
+        "descricao": "na contramão de direção",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso IX"
+      },
+      {
+        "codigo": "572-61",
+        "inciso": "X",
+        "descricao": "em local e horário proibidos especificamente pela sinalização (placa - Proibido Parar)",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso X"
+      },
+      {
+        "codigo": "570-90",
+        "inciso": "XI",
+        "descricao": "sobre ciclovia ou ciclofaixa",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 182, Inciso XI"
+      }
+    ]
+  },
+  {
+    "codigo": "573-41",
+    "artigo": 183,
+    "descricao": "Parar o veículo sobre a faixa de pedestres na mudança de sinal luminoso",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 183"
+  },
+  {
+    "artigo": 184,
+    "descricao": "Transitar com o veículo:",
+    "incisos": [
+      {
+        "codigo": "574-11",
+        "inciso": "I",
+        "descricao": "na faixa ou pista da direita, regulamentada como de circulação exclusiva para determinado tipo de veículo, exceto para acesso a imóveis lindeiros ou conversões à direita",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 184, Inciso I"
+      },
+      {
+        "codigo": "574-21",
+        "inciso": "II",
+        "descricao": "na faixa ou pista da esquerda regulamentada como de circulação exclusiva para determinado tipo de veículo",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 184, Inciso II"
+      },
+      {
+        "codigo": "574-31",
+        "inciso": "III",
+        "descricao": "na faixa ou via de trânsito exclusivo, regulamentada com circulação destinada aos veículos de transporte público coletivo de passageiros, salvo casos de força maior e com autorização do poder público competente",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 184, Inciso III"
+      }
+    ]
+  },
+  {
+    "artigo": 185,
+    "descricao": "Quando o veículo estiver em movimento, deixar de conservá-lo:",
+    "incisos": [
+      {
+        "codigo": "575-00",
+        "inciso": "I",
+        "descricao": "na faixa a ele destinada pela sinalização de regulamentação, exceto em situações de emergência",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 185, Inciso I"
+      },
+      {
+        "codigo": "575-10",
+        "inciso": "II",
+        "descricao": "nas faixas da direita, os veículos lentos e de maior porte",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 185, Inciso II"
+      }
+    ]
+  },
+  {
+    "artigo": 186,
+    "descricao": "Transitar pela contramão de direção em:",
+    "incisos": [
+      {
+        "codigo": "576-00",
+        "inciso": "I",
+        "descricao": "vias com duplo sentido de circulação, exceto para ultrapassar outro veículo e apenas pelo tempo necessário, respeitada a preferência do veículo que transitar em sentido contrário",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 186, Inciso I"
+      },
+      {
+        "codigo": "576-10",
+        "inciso": "II",
+        "descricao": "vias com sinalização de regulamentação de sentido único de circulação",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 186, Inciso II"
+      }
+    ]
+  },
+  {
+    "artigo": 187,
+    "descricao": "Transitar em locais e horários não permitidos pela regulamentação estabelecida pela autoridade competente:",
+    "incisos": [
+      {
+        "codigo": "577-00",
+        "inciso": "I",
+        "descricao": "para todos os tipos de veículos",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 187, Inciso I"
+      }
+    ]
+  },
+  {
+    "codigo": "578-00",
+    "artigo": 188,
+    "descricao": "Transitar ao lado de outro veículo, interrompendo ou perturbando o trânsito.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 188"
+  },
+  {
+    "codigo": "579-00",
+    "artigo": 189,
+    "descricao": "Deixar de dar passagem aos veículos precedidos de batedores, de socorro de incêndio e salvamento, de polícia, de operação e fiscalização de trânsito e às ambulâncias, quando em serviço de urgência e devidamente identificados por dispositivos regulamentados de alarme sonoro e iluminação intermitente.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 189"
+  },
+  {
+    "codigo": "580-00",
+    "artigo": 190,
+    "descricao": "Seguir veículo em serviço de urgência, estando este com prioridade de passagem devidamente identificada por dispositivos regulamentares de alarme sonoro e iluminação intermitente.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 190"
+  },
+  {
+    "codigo": "581-10",
+    "artigo": 191,
+    "descricao": "Forçar passagem entre veículos que, transitando em sentidos opostos, estejam na iminência de passar um pelo outro ao realizar operação de ultrapassagem.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (dez vezes) e suspensão do direito de dirigir",
+    "valor_multa": 2934.70,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 191"
+  },
+  {
+    "codigo": "581-20",
+    "artigo": 192,
+    "descricao": "Deixar de guardar distância de segurança lateral e frontal entre o seu veículo e os demais, bem como em relação ao bordo da pista, considerando-se, no momento, a velocidade, as condições climáticas do local da circulação e do veículo.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 192"
+  },
+  {
+    "codigo": "583-00",
+    "artigo": 193,
+    "descricao": "Transitar com o veículo em calçadas, passeios, passarelas, ciclovias, ciclofaixas, ilhas, refúgios, ajardinamentos, canteiros centrais e divisores de pista de rolamento, acostamentos, marcas de canalização, gramados e jardins públicos.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (três vezes)",
+    "valor_multa": 880.41,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 193"
+  },
+  {
+    "codigo": "545-50",
+    "artigo": 194,
+    "descricao": "Transitar em marcha à ré, salvo na distância necessária a pequenas manobras e de forma a não causar riscos à segurança.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 194"
+  },
+  {
+    "codigo": "545-61",
+    "artigo": 195,
+    "descricao": "Desobedecer às ordens emanadas da autoridade competente de trânsito ou de seus agentes.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 195"
+  },
+  {
+    "codigo": "545-62",
+    "artigo": 196,
+    "descricao": "Deixar de indicar com antecedência, mediante gesto regulamentar de braço ou luz indicadora de direção do veículo, o início da marcha, a realização da manobra de parar o veículo, a mudança de direção ou de faixa de circulação.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 196"
+  },
+  {
+    "codigo": "546-39",
+    "artigo": 197,
+    "descricao": "Deixar de deslocar, com antecedência, o veículo para a faixa mais à esquerda ou mais à direita, dentro da respectiva mão de direção, quando for manobrar para um desses lados.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 197"
+  },
+  {
+    "codigo": "546-40",
+    "artigo": 198,
+    "descricao": "Deixar de dar passagem pela esquerda, quando solicitado.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 198"
+  },
+  {
+    "codigo": "546-51",
+    "artigo": 199,
+    "descricao": "Ultrapassar pela direita, salvo quando o veículo da frente estiver colocado na faixa apropriada e der sinal de que vai entrar à esquerda.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 199"
+  },
+  {
+    "codigo": "546-52",
+    "artigo": 200,
+    "descricao": "Ultrapassar pela direita veículo de transporte coletivo ou de escolares, parado para embarque ou desembarque de passageiros, salvo quando houver refúgio de segurança para o pedestre.",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 200"
+  },
+  {
+    "codigo": "546-61",
+    "artigo": 201,
+    "descricao": "Deixar de guardar a distância lateral de um metro e cinqüenta centímetros ao passar ou ultrapassar bicicleta.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 201"
+  },
+  {
+    "artigo": 202,
+    "descricao": "Ultrapassar outro veículo:",
+    "incisos": [
+      {
+        "codigo": "546-62",
+        "inciso": "I",
+        "descricao": "pelo acostamento",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 202, Inciso I"
+      },
+      {
+        "codigo": "546-63",
+        "inciso": "II",
+        "descricao": "em interseções e passagens de nível",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 202, Inciso II"
+      }
+    ]
+  },
+  {
+    "artigo": 203,
+    "descricao": "Ultrapassar pela contramão outro veículo:",
+    "incisos": [
+      {
+        "codigo": "546-64",
+        "inciso": "I",
+        "descricao": "nas curvas, aclives e declives, sem visibilidade suficiente",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": {
+          "condicao": "reincidência no período de até 12 meses",
+          "multa": "multa aplicada em dobro",
+          "valor_multa_reincidencia": 2934.70
+        },
+        "base_legal_completa": "CTB - Art. 203, Inciso I"
+      },
+      {
+        "codigo": "546-65",
+        "inciso": "II",
+        "descricao": "nas faixas de pedestre",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": {
+          "condicao": "reincidência no período de até 12 meses",
+          "multa": "multa aplicada em dobro",
+          "valor_multa_reincidencia": 2934.70
+        },
+        "base_legal_completa": "CTB - Art. 203, Inciso II"
+      },
+      {
+        "codigo": "546-66",
+        "inciso": "III",
+        "descricao": "nas pontes, viadutos ou túneis",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": {
+          "condicao": "reincidência no período de até 12 meses",
+          "multa": "multa aplicada em dobro",
+          "valor_multa_reincidencia": 2934.70
+        },
+        "base_legal_completa": "CTB - Art. 203, Inciso III"
+      },
+      {
+        "codigo": "546-67",
+        "inciso": "IV",
+        "descricao": "parado em fila junto a sinais luminosos, porteiras, cancelas, cruzamentos ou qualquer outro impedimento à livre circulação",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": {
+          "condicao": "reincidência no período de até 12 meses",
+          "multa": "multa aplicada em dobro",
+          "valor_multa_reincidencia": 2934.70
+        },
+        "base_legal_completa": "CTB - Art. 203, Inciso IV"
+      },
+      {
+        "codigo": "546-68",
+        "inciso": "V",
+        "descricao": "onde houver marcação viária longitudinal de divisão de fluxos opostos do tipo linha dupla contínua ou simples contínua amarela",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": {
+          "condicao": "reincidência no período de até 12 meses",
+          "multa": "multa aplicada em dobro",
+          "valor_multa_reincidencia": 2934.70
+        },
+        "base_legal_completa": "CTB - Art. 203, Inciso V"
+      }
+    ]
+  },
+  {
+    "codigo": "548-81",
+    "artigo": 204,
+    "descricao": "Deixar de parar o veículo no acostamento à direita, para aguardar a oportunidade de cruzar a pista ou entrar à esquerda, onde não houver local apropriado para operação de retorno",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 204"
+  },
+  {
+    "codigo": "549-61",
+    "artigo": 205,
+    "descricao": "Ultrapassar veículo em movimento que integre cortejo, préstito, desfile e formações militares, salvo com autorização da autoridade de trânsito ou de seus agentes",
+    "gravidade": "leve",
+    "penalidade": "multa",
+    "valor_multa": 88.38,
+    "pontos": 3,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 205"
+  },
+  {
+    "artigo": 206,
+    "descricao": "Executar operação de retorno:",
+    "incisos": [
+      {
+        "codigo": "556-11",
+        "inciso": "I",
+        "descricao": "em locais proibidos pela sinalização",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 206, Inciso I"
+      },
+      {
+        "codigo": "556-21",
+        "inciso": "II",
+        "descricao": "nas curvas, aclives, declives, pontes, viadutos e túneis",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 206, Inciso II"
+      },
+      {
+        "codigo": "556-31",
+        "inciso": "III",
+        "descricao": "passando por cima de calçada, passeio, ilhas, ajardinamento ou canteiros de divisões de pista de rolamento, refúgios e faixas de pedestres e nas de veículos não motorizados",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 206, Inciso III"
+      },
+      {
+        "codigo": "556-41",
+        "inciso": "IV",
+        "descricao": "nas interseções, entrando na contramão de direção da via transversal",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 206, Inciso IV"
+      },
+      {
+        "codigo": "556-51",
+        "inciso": "V",
+        "descricao": "com prejuízo da livre circulação ou da segurança, ainda que em locais permitidos",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 206, Inciso V"
+      }
+    ]
+  },
+  {
+    "codigo": "557-00",
+    "artigo": 207,
+    "descricao": "Executar operação de conversão à direita ou à esquerda em locais proibidos pela sinalização",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 207"
+  },
+  {
+    "codigo": "559-00",
+    "artigo": 208,
+    "descricao": "Avançar o sinal vermelho do semáforo ou o de parada obrigatória, exceto onde houver sinalização que permita a livre conversão à direita prevista no art. 44-A deste Código",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 208"
+  },
+  {
+    "codigo": "561-31",
+    "artigo": 209,
+    "descricao": "Transpor, sem autorização, bloqueio viário com ou sem sinalização ou dispositivos auxiliares, ou deixar de adentrar as áreas destinadas à pesagem de veículos",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 209"
+  },
+  {
+    "codigo": "561-90",
+    "artigo": "209-A",
+    "descricao": "Evadir-se da cobrança pelo uso de rodovias e vias urbanas para não efetuar o seu pagamento, ou deixar de efetuá-lo na forma estabelecida",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 209-A"
+  },
+  {
+    "codigo": "561-40",
+    "artigo": 210,
+    "descricao": "Transpor, sem autorização, bloqueio viário policial",
+    "gravidade": "gravíssima",
+    "penalidade": "multa, apreensão do veículo e suspensão do direito de dirigir",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo e recolhimento do documento de habilitação",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 210"
+  },
+  {
+    "codigo": "561-50",
+    "artigo": 211,
+    "descricao": "Ultrapassar veículos em fila, parados em razão de sinal luminoso, cancela, bloqueio viário parcial ou qualquer outro obstáculo, com exceção dos veículos não motorizados",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 211"
+  },
+  {
+    "codigo": "562-00",
+    "artigo": 212,
+    "descricao": "Deixar de parar o veículo antes de transpor linha férrea",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 212"
+  },
+  {
+    "artigo": 213,
+    "descricao": "Deixar de parar o veículo sempre que a respectiva marcha for interceptada:",
+    "incisos": [
+      {
+        "codigo": "563-00",
+        "inciso": "I",
+        "descricao": "por agrupamento de pessoas, como préstitos, passeatas, desfiles e outros",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 213, Inciso I"
+      },
+      {
+        "codigo": "564-00",
+        "inciso": "II",
+        "descricao": "por agrupamento de veículos, como cortejos, formações militares e outros",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 213, Inciso II"
+      }
+    ]
+  },
+  {
+    "artigo": 214,
+    "descricao": "Deixar de dar preferência de passagem a pedestre e a veículo não motorizado:",
+    "incisos": [
+      {
+        "codigo": "565-00",
+        "inciso": "I",
+        "descricao": "que se encontre na faixa a ele destinada",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 214, Inciso I"
+      },
+      {
+        "codigo": "566-00",
+        "inciso": "II",
+        "descricao": "que não haja concluído a travessia mesmo que ocorra sinal verde para o veículo",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 214, Inciso II"
+      },
+      {
+        "codigo": "567-00",
+        "inciso": "III",
+        "descricao": "portadores de deficiência física, crianças, idosos e gestantes",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 214, Inciso III"
+      },
+      {
+        "codigo": "568-00",
+        "inciso": "IV",
+        "descricao": "quando houver iniciado a travessia mesmo que não haja sinalização a ele destinada",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 214, Inciso IV"
+      },
+      {
+        "codigo": "569-00",
+        "inciso": "V",
+        "descricao": "que esteja atravessando a via transversal para onde se dirige o veículo",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 214, Inciso V"
+      }
+    ]
+  },
+  {
+    "artigo": 215,
+    "descricao": "Deixar de dar preferência de passagem:",
+    "incisos": [
+      {
+        "codigo": "570-00",
+        "inciso": "I-a",
+        "descricao": "em interseção não sinalizada: a veículo que estiver circulando por rodovia ou rotatória",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 215, Inciso I, Alínea a"
+      },
+      {
+        "codigo": "571-00",
+        "inciso": "I-b",
+        "descricao": "em interseção não sinalizada: a veículo que vier da direita",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 215, Inciso I, Alínea b"
+      },
+      {
+        "codigo": "572-00",
+        "inciso": "II",
+        "descricao": "nas interseções com sinalização de regulamentação de Dê a Preferência",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 215, Inciso II"
+      }
+    ]
+  },
+  {
+    "codigo": "573-00",
+    "artigo": 216,
+    "descricao": "Entrar ou sair de áreas lindeiras sem estar adequadamente posicionado para ingresso na via e sem as precauções com a segurança de pedestres e de outros veículos.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 216"
+  },
+  {
+    "codigo": "574-00",
+    "artigo": 217,
+    "descricao": "Entrar ou sair de fila de veículos estacionados sem dar preferência de passagem a pedestres e a outros veículos.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 217"
+  },
+  {
+    "artigo": 218,
+    "descricao": "Transitar em velocidade superior à máxima permitida para o local, medida por instrumento ou equipamento hábil.",
+    "incisos": [
+      {
+        "codigo": "745-00",
+        "inciso": "I",
+        "descricao": "Velocidade superior à máxima em até 20% (vinte por cento)",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 218, Inciso I"
+      },
+      {
+        "codigo": "746-10",
+        "inciso": "II",
+        "descricao": "Velocidade superior à máxima em mais de 20% até 50% (cinqüenta por cento)",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 218, Inciso II"
+      },
+      {
+        "codigo": "747-20",
+        "inciso": "III",
+        "descricao": "Velocidade superior à máxima em mais de 50% (cinqüenta por cento)",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (três vezes) e suspensão do direito de dirigir",
+        "valor_multa": 880.41,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 218, Inciso III"
+      }
+    ]
+  },
+  {
+    "codigo": "748-30",
+    "artigo": 219,
+    "descricao": "Transitar com o veículo em velocidade inferior à metade da velocidade máxima estabelecida para a via, retardando ou obstruindo o trânsito, salvo condições adversas ou se estiver na faixa da direita.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 219"
+  },
+  {
+    "artigo": 220,
+    "descricao": "Deixar de reduzir a velocidade do veículo de forma compatível com a segurança do trânsito:",
+    "incisos": [
+      {
+        "codigo": "745-10",
+        "inciso": "I",
+        "descricao": "quando se aproximar de passeatas, aglomerações, cortejos, préstitos e desfiles",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso I"
+      },
+      {
+        "codigo": "745-20",
+        "inciso": "II",
+        "descricao": "nos locais onde o trânsito esteja sendo controlado pelo agente da autoridade de trânsito, mediante sinais sonoros ou gestos",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso II"
+      },
+      {
+        "codigo": "745-30",
+        "inciso": "III",
+        "descricao": "ao aproximar-se da guia da calçada (meio-fio) ou acostamento",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso III"
+      },
+      {
+        "codigo": "745-40",
+        "inciso": "IV",
+        "descricao": "ao aproximar-se de ou passar por interseção não sinalizada",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso IV"
+      },
+      {
+        "codigo": "745-50",
+        "inciso": "V",
+        "descricao": "nas vias rurais cuja faixa de domínio não esteja cercada",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso V"
+      },
+      {
+        "codigo": "745-60",
+        "inciso": "VI",
+        "descricao": "nos trechos em curva de pequeno raio",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso VI"
+      },
+      {
+        "codigo": "745-70",
+        "inciso": "VII",
+        "descricao": "ao aproximar-se de locais sinalizados com advertência de obras ou trabalhadores na pista",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso VII"
+      },
+      {
+        "codigo": "745-80",
+        "inciso": "VIII",
+        "descricao": "sob chuva, neblina, cerração ou ventos fortes",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso VIII"
+      },
+      {
+        "codigo": "745-90",
+        "inciso": "IX",
+        "descricao": "quando houver má visibilidade",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso IX"
+      },
+      {
+        "codigo": "746-00",
+        "inciso": "X",
+        "descricao": "quando o pavimento se apresentar escorregadio, defeituoso ou avariado",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso X"
+      },
+      {
+        "codigo": "746-10",
+        "inciso": "XI",
+        "descricao": "à aproximação de animais na pista",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso XI"
+      },
+      {
+        "codigo": "746-20",
+        "inciso": "XII",
+        "descricao": "em declive",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso XII"
+      },
+      {
+        "codigo": "746-30",
+        "inciso": "XIII",
+        "descricao": "ao ultrapassar ciclista",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso XIII"
+      },
+      {
+        "codigo": "746-40",
+        "inciso": "XIV",
+        "descricao": "nas proximidades de escolas, hospitais, estações de embarque e desembarque de passageiros ou onde haja intensa movimentação de pedestres",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 220, Inciso XIV"
+      }
+    ]
+  },
+  {
+    "codigo": "703-91",
+    "artigo": 221,
+    "descricao": "Portar no veículo placas de identificação em desacordo com as especificações e modelos estabelecidos pelo CONTRAN.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": "retenção do veículo para regularização e apreensão das placas irregulares",
+    "reincidencia": {
+      "condicao": "Reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 5877.40
+    },
+    "base_legal_completa": "CTB - Art. 221"
+  },
+  {
+    "codigo": "704-61",
+    "artigo": 222,
+    "descricao": "Deixar de manter ligado, nas situações de atendimento de emergência, o sistema de iluminação intermitente dos veículos de polícia, de socorro de incêndio e salvamento, de fiscalização de trânsito e das ambulâncias, ainda que parados.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 222"
+  },
+  {
+    "codigo": "705-00",
+    "artigo": 223,
+    "descricao": "Transitar com o farol desregulado ou com o facho de luz alta de forma a perturbar a visão de outro condutor.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção do veículo para regularização",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 223"
+  },
+  {
+    "codigo": "706-00",
+    "artigo": 224,
+    "descricao": "Fazer uso do facho de luz alta dos faróis em vias providas de iluminação pública.",
+    "gravidade": "leve",
+    "penalidade": "multa",
+    "valor_multa": 88.38,
+    "pontos": 3,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 224"
+  },
+  {
+    "artigo": 225,
+    "descricao": "Deixar de sinalizar a via, de forma a prevenir os demais condutores e, à noite, não manter acesas as luzes externas ou omitir-se quanto a providências necessárias para tornar visível o local, quando:",
+    "incisos": [
+      {
+        "codigo": "707-00",
+        "inciso": "I",
+        "descricao": "tiver de remover o veículo da pista de rolamento ou permanecer no acostamento",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 225, Inciso I"
+      },
+      {
+        "codigo": "707-01",
+        "inciso": "II",
+        "descricao": "a carga for derramada sobre a via e não puder ser retirada imediatamente",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 225, Inciso II"
+      }
+    ]
+  },
+  {
+    "codigo": "708-00",
+    "artigo": 226,
+    "descricao": "Deixar de retirar todo e qualquer objeto que tenha sido utilizado para sinalização temporária da via.",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 226"
+  },
+  {
+    "artigo": 227,
+    "descricao": "Usar buzina:",
+    "incisos": [
+      {
+        "codigo": "709-00",
+        "inciso": "I",
+        "descricao": "em situação que não a de simples toque breve como advertência ao pedestre ou a condutores de outros veículos",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 227, Inciso I"
+      },
+      {
+        "codigo": "710-00",
+        "inciso": "II",
+        "descricao": "prolongada e sucessivamente a qualquer pretexto",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 227, Inciso II"
+      },
+      {
+        "codigo": "711-00",
+        "inciso": "III",
+        "descricao": "entre as vinte e duas e as seis horas",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 227, Inciso III"
+      },
+      {
+        "codigo": "712-00",
+        "inciso": "IV",
+        "descricao": "em locais e horários proibidos pela sinalização",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 227, Inciso IV"
+      },
+      {
+        "codigo": "713-00",
+        "inciso": "V",
+        "descricao": "em desacordo com os padrões e frequências estabelecidas pelo CONTRAN",
+        "gravidade": "leve",
+        "penalidade": "multa",
+        "valor_multa": 88.38,
+        "pontos": 3,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 227, Inciso V"
+      }
+    ]
+  },
+  {
+    "codigo": "714-00",
+    "artigo": 228,
+    "descricao": "Usar no veículo equipamento com som em volume ou frequência que não sejam autorizados pelo CONTRAN.",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção do veículo para regularização",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 228"
+  },
+  {
+    "codigo": "715-00",
+    "artigo": 229,
+    "descricao": "Usar indevidamente no veículo aparelho de alarme ou que produza sons e ruído que perturbem o sossego público, em desacordo com normas fixadas pelo CONTRAN.",
+    "gravidade": "média",
+    "penalidade": "multa e apreensão do veículo",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 229"
+  },
+  {
+    "artigo": 230,
+    "descricao": "Conduzir o veículo:",
+    "incisos": [
+      {
+        "codigo": "667-00",
+        "inciso": "I",
+        "descricao": "com o lacre, a inscrição do chassi, o selo, a placa ou qualquer outro elemento de identificação do veículo violado ou falsificado",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso I"
+      },
+      {
+        "codigo": "667-10",
+        "inciso": "II",
+        "descricao": "transportando passageiros em compartimento de carga, salvo por motivo de força maior, com permissão da autoridade competente e na forma estabelecida pelo CONTRAN",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso II"
+      },
+      {
+        "codigo": "667-20",
+        "inciso": "III",
+        "descricao": "com dispositivo anti-radar",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso III"
+      },
+      {
+        "codigo": "667-30",
+        "inciso": "IV",
+        "descricao": "sem qualquer uma das placas de identificação",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso IV"
+      },
+      {
+        "codigo": "667-40",
+        "inciso": "V",
+        "descricao": "que não esteja registrado e devidamente licenciado",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso V"
+      },
+      {
+        "codigo": "667-50",
+        "inciso": "VI",
+        "descricao": "com qualquer uma das placas de identificação sem condições de legibilidade e visibilidade",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso VI"
+      },
+      {
+        "codigo": "667-60",
+        "inciso": "VII",
+        "descricao": "com a cor ou característica alterada",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso VII"
+      },
+      {
+        "codigo": "667-70",
+        "inciso": "VIII",
+        "descricao": "sem ter sido submetido à inspeção de segurança veicular, quando obrigatória",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso VIII"
+      },
+      {
+        "codigo": "667-80",
+        "inciso": "IX",
+        "descricao": "sem equipamento obrigatório ou estando este ineficiente ou inoperante",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso IX"
+      },
+      {
+        "codigo": "667-90",
+        "inciso": "X",
+        "descricao": "com equipamento obrigatório em desacordo com o estabelecido pelo CONTRAN",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso X"
+      },
+      {
+        "codigo": "668-00",
+        "inciso": "XI",
+        "descricao": "com descarga livre ou silenciador de motor de explosão defeituoso, deficiente ou inoperante",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XI"
+      },
+      {
+        "codigo": "668-10",
+        "inciso": "XII",
+        "descricao": "com equipamento ou acessório proibido",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XII"
+      },
+      {
+        "codigo": "668-20",
+        "inciso": "XIII",
+        "descricao": "com o equipamento do sistema de iluminação e de sinalização alterados",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XIII"
+      },
+      {
+        "codigo": "668-30",
+        "inciso": "XIV",
+        "descricao": "com registrador instantâneo inalterável de velocidade e tempo viciado ou defeituoso, quando houver exigência desse aparelho",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XIV"
+      },
+      {
+        "codigo": "668-40",
+        "inciso": "XV",
+        "descricao": "com inscrições, adesivos, legendas e símbolos de caráter publicitário afixados ou pintados no para-brisa e na parte traseira do veículo, excetuadas as hipóteses previstas",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XV"
+      },
+      {
+        "codigo": "668-50",
+        "inciso": "XVI",
+        "descricao": "com vidros total ou parcialmente cobertos por películas refletivas ou não, painéis decorativos ou pinturas",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XVI"
+      },
+      {
+        "codigo": "668-60",
+        "inciso": "XVII",
+        "descricao": "com cortinas ou persianas fechadas, não autorizadas pela legislação",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XVII"
+      },
+      {
+        "codigo": "668-70",
+        "inciso": "XVIII",
+        "descricao": "em mau estado de conservação, comprometendo a segurança ou reprovado em inspeção",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XVIII"
+      },
+      {
+        "codigo": "668-80",
+        "inciso": "XIX",
+        "descricao": "sem acionar o limpador de para-brisa sob chuva",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "retenção do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 230, Inciso XIX"
+      },
+      {
+        "codigo": "668-90",
+        "inciso": "XX",
+        "descricao": "sem portar a autorização para condução de escolares, na forma do art. 136",
+        "gravidade": "gravíssima",
+        "penalidade": "multa (cinco vezes)",
+        "valor_multa": 1467.35,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 230, Inciso XX"
+      },
+      {
+        "codigo": "669-00",
+        "inciso": "XXI",
+        "descricao": "de carga, com falta de inscrição da tara e demais inscrições previstas neste Código",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 230, Inciso XXI"
+      },
+      {
+        "codigo": "669-10",
+        "inciso": "XXII",
+        "descricao": "com defeito no sistema de iluminação, de sinalização ou com lâmpadas queimadas",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 230, Inciso XXII"
+      },
+      {
+        "codigo": "669-20",
+        "inciso": "XXIII",
+        "descricao": "em desacordo com as condições estabelecidas no art. 67-C, quanto ao tempo de direção e descanso",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "retenção do veículo para cumprimento do tempo de descanso",
+        "base_legal_completa": "CTB - Art. 230, Inciso XXIII"
+      }
+    ]
+  },
+  {
+    "artigo": 231,
+    "descricao": "Transitar com o veículo:",
+    "incisos": [
+      {
+        "codigo": "673-91",
+        "inciso": "I",
+        "descricao": "danificando a via, suas instalações e equipamentos",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 231, Inciso I"
+      },
+      {
+        "codigo": "674-71",
+        "inciso": "II",
+        "descricao": "derramando, lançando ou arrastando sobre a via: carga, combustível, lubrificante ou qualquer objeto que possa acarretar risco de sinistro",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 231, Inciso II"
+      },
+      {
+        "codigo": "675-53",
+        "inciso": "III",
+        "descricao": "produzindo fumaça, gases ou partículas em níveis superiores aos fixados pelo CONTRAN",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "retenção do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 231, Inciso III"
+      },
+      {
+        "codigo": "676-35",
+        "inciso": "IV",
+        "descricao": "com dimensões ou carga superiores aos limites legais ou da sinalização, sem autorização",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "retenção do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 231, Inciso IV"
+      },
+      {
+        "codigo": "677-17",
+        "inciso": "V",
+        "descricao": "com excesso de peso, conforme tabela progressiva de valor por quilo excedente",
+        "gravidade": "média",
+        "penalidade": "multa progressiva conforme tabela",
+        "valor_multa": null,
+        "pontos": 4,
+        "medida_administrativa": "retenção do veículo e transbordo da carga excedente",
+        "base_legal_completa": "CTB - Art. 231, Inciso V"
+      },
+      {
+        "codigo": "678-98",
+        "inciso": "VI",
+        "descricao": "em desacordo com autorização especial ou com autorização vencida",
+        "gravidade": "grave",
+        "penalidade": "multa e apreensão do veículo",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 231, Inciso VI"
+      },
+      {
+        "codigo": "679-80",
+        "inciso": "VII",
+        "descricao": "com lotação excedente",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 231, Inciso VII"
+      },
+      {
+        "codigo": "680-62",
+        "inciso": "VIII",
+        "descricao": "efetuando transporte remunerado sem licenciamento ou permissão da autoridade competente",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "remoção do veículo",
+        "base_legal_completa": "CTB - Art. 231, Inciso VIII"
+      },
+      {
+        "codigo": "681-44",
+        "inciso": "IX",
+        "descricao": "desligado ou desengrenado, em declive",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "retenção do veículo",
+        "base_legal_completa": "CTB - Art. 231, Inciso IX"
+      },
+      {
+        "codigo": "682-26",
+        "inciso": "X",
+        "descricao": "excedendo a capacidade máxima de tração",
+        "gravidade": "de média a gravíssima",
+        "penalidade": "multa",
+        "valor_multa": null,
+        "pontos": null,
+        "medida_administrativa": "retenção do veículo e transbordo de carga excedente",
+        "base_legal_completa": "CTB - Art. 231, Inciso X"
+      }
+    ]
+  },
+  {
+    "codigo": "525-86",
+    "artigo": 232,
+    "descricao": "Conduzir veículo sem os documentos de porte obrigatório referidos neste Código",
+    "gravidade": "leve",
+    "penalidade": "multa",
+    "valor_multa": 88.38,
+    "pontos": 3,
+    "medida_administrativa": "retenção do veículo até a apresentação do documento",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 232"
+  },
+  {
+    "codigo": "526-03",
+    "artigo": 233,
+    "descricao": "Deixar de efetuar o registro de veículo no prazo de trinta dias, junto ao órgão executivo de trânsito, ocorridas as hipóteses previstas no art. 123",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 233"
+  },
+  {
+    "codigo": "526-04",
+    "artigo": 234,
+    "descricao": "Falsificar ou adulterar documento de habilitação e de identificação do veículo",
+    "gravidade": "gravíssima",
+    "penalidade": "multa e apreensão do veículo",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 234"
+  },
+  {
+    "codigo": "526-05",
+    "artigo": 235,
+    "descricao": "Conduzir pessoas, animais ou carga nas partes externas do veículo, salvo nos casos devidamente autorizados",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção do veículo para transbordo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 235"
+  },
+  {
+    "codigo": "526-06",
+    "artigo": 236,
+    "descricao": "Rebocar outro veículo com cabo flexível ou corda, salvo em casos de emergência",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 236"
+  },
+  {
+    "codigo": "526-07",
+    "artigo": 237,
+    "descricao": "Transitar com o veículo em desacordo com as especificações, e com falta de inscrição e simbologia necessárias à sua identificação, quando exigidas pela legislação",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção do veículo para regularização",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 237"
+  },
+  {
+    "codigo": "526-08",
+    "artigo": 238,
+    "descricao": "Recusar-se a entregar à autoridade de trânsito ou a seus agentes, mediante recibo, os documentos de habilitação, de registro, de licenciamento de veículo e outros exigidos por lei, para averiguação de sua autenticidade",
+    "gravidade": "gravíssima",
+    "penalidade": "multa e apreensão do veículo",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 238"
+  },
+  {
+    "codigo": "526-09",
+    "artigo": 239,
+    "descricao": "Retirar do local veículo legalmente retido para regularização, sem permissão da autoridade competente ou de seus agentes",
+    "gravidade": "gravíssima",
+    "penalidade": "multa e apreensão do veículo",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 239"
+  },
+  {
+    "codigo": "526-10",
+    "artigo": 240,
+    "descricao": "Deixar o responsável de promover a baixa do registro de veículo irrecuperável ou definitivamente desmontado",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "recolhimento do Certificado de Registro e do Certificado de Licenciamento Anual",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 240"
+  },
+  {
+    "codigo": "526-11",
+    "artigo": 241,
+    "descricao": "Deixar de atualizar o cadastro de registro do veículo ou de habilitação do condutor",
+    "gravidade": "leve",
+    "penalidade": "multa",
+    "valor_multa": 88.38,
+    "pontos": 3,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 241"
+  },
+  {
+    "codigo": "526-12",
+    "artigo": 242,
+    "descricao": "Fazer falsa declaração de domicílio para fins de registro, licenciamento ou habilitação",
+    "gravidade": "gravíssima",
+    "penalidade": "multa",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 242"
+  },
+  {
+    "codigo": "526-13",
+    "artigo": 243,
+    "descricao": "Deixar a empresa seguradora de comunicar ao órgão executivo de trânsito competente a ocorrência de perda total do veículo e de lhe devolver as respectivas placas e documentos",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "recolhimento das placas e dos documentos",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 243"
+  },
+  {
+    "artigo": 244,
+    "descricao": "Conduzir motocicleta, motoneta ou ciclomotor:",
+    "incisos": [
+      {
+        "codigo": "703-91",
+        "inciso": "I",
+        "descricao": "Sem usar capacete de segurança ou vestuário de acordo com as normas e as especificações aprovadas pelo Contran",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso I"
+      },
+      {
+        "codigo": "704-91",
+        "inciso": "II",
+        "descricao": "Transportando passageiro sem capacete ou fora do assento suplementar ou carro lateral",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso II"
+      },
+      {
+        "codigo": "705-91",
+        "inciso": "III",
+        "descricao": "Fazendo malabarismo ou equilibrando-se apenas em uma roda",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso III"
+      },
+      {
+        "codigo": "707-91",
+        "inciso": "V",
+        "descricao": "Transportando criança menor de 10 anos ou que não tenha condições de cuidar da própria segurança",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso V"
+      },
+      {
+        "codigo": "708-91",
+        "inciso": "VI",
+        "descricao": "Rebocando outro veículo",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso VI"
+      },
+      {
+        "codigo": "709-91",
+        "inciso": "VII",
+        "descricao": "Sem segurar o guidom com ambas as mãos, salvo para indicar manobras",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso VII"
+      },
+      {
+        "codigo": "710-91",
+        "inciso": "VIII",
+        "descricao": "Transportando carga incompatível com especificações ou em desacordo com o art. 139-A",
+        "gravidade": "gravíssima",
+        "penalidade": "multa e suspensão do direito de dirigir",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até regularização e recolhimento do documento de habilitação",
+        "base_legal_completa": "CTB - Art. 244, Inciso VIII"
+      },
+      {
+        "codigo": "711-91",
+        "inciso": "IX",
+        "descricao": "Efetuando transporte remunerado de mercadorias em desacordo com o art. 139-A ou normas da profissão",
+        "gravidade": "grave",
+        "penalidade": "multa",
+        "valor_multa": 195.23,
+        "pontos": 5,
+        "medida_administrativa": "apreensão do veículo para regularização",
+        "base_legal_completa": "CTB - Art. 244, Inciso IX"
+      },
+      {
+        "codigo": "712-91",
+        "inciso": "X",
+        "descricao": "Com capacete de segurança sem viseira ou óculos de proteção, ou em desacordo com o Contran",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "retenção do veículo até regularização",
+        "base_legal_completa": "CTB - Art. 244, Inciso X"
+      },
+      {
+        "codigo": "713-91",
+        "inciso": "XI",
+        "descricao": "Transportando passageiro com capacete em desacordo com o Inciso X",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": "retenção do veículo até regularização",
+        "base_legal_completa": "CTB - Art. 244, Inciso XI"
+      }
+    ]
+  },
+  {
+    "codigo": "706-21",
+    "artigo": 245,
+    "descricao": "Utilizar a via para depósito de mercadorias, materiais ou equipamentos, sem autorização do órgão ou entidade de trânsito com circunscrição sobre a via",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "remoção da mercadoria ou do material",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 245"
+  },
+  {
+    "codigo": "706-41",
+    "artigo": 246,
+    "descricao": "Deixar de sinalizar qualquer obstáculo à livre circulação, à segurança de veículo e pedestres, tanto no leito da via terrestre como na calçada, ou obstaculizar a via indevidamente",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (agravada em até cinco vezes)",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 246"
+  },
+  {
+    "codigo": "706-61",
+    "artigo": 247,
+    "descricao": "Deixar de conduzir pelo bordo da pista de rolamento, em fila única, os veículos de tração ou propulsão humana e os de tração animal, sempre que não houver acostamento ou faixa a eles destinados",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 247"
+  },
+  {
+    "codigo": "706-81",
+    "artigo": 248,
+    "descricao": "Transportar em veículo destinado ao transporte de passageiros carga excedente em desacordo com o estabelecido no art. 109",
+    "gravidade": "grave",
+    "penalidade": "multa",
+    "valor_multa": 195.23,
+    "pontos": 5,
+    "medida_administrativa": "retenção para o transbordo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 248"
+  },
+  {
+    "codigo": "707-00",
+    "artigo": 249,
+    "descricao": "Deixar de manter acesas, à noite, as luzes de posição, quando o veículo estiver parado, para fins de embarque ou desembarque de passageiros e carga ou descarga de mercadorias",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": null,
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 249"
+  },
+  {
+    "artigo": 250,
+    "descricao": "Quando o veículo estiver em movimento:",
+    "incisos": [
+      {
+        "codigo": "708-91",
+        "inciso": "I-a",
+        "descricao": "Deixar de manter acesa a luz baixa durante a noite",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso I, Alínea a"
+      },
+      {
+        "codigo": "708-92",
+        "inciso": "I-b",
+        "descricao": "Deixar de manter acesa a luz baixa de dia, em túneis e sob chuva, neblina ou cerração",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso I, Alínea b"
+      },
+      {
+        "codigo": "708-93",
+        "inciso": "I-c",
+        "descricao": "Deixar de manter acesa a luz baixa de dia, no caso de veículos de transporte coletivo de passageiros em circulação em faixas ou pistas a eles destinadas",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso I, Alínea c"
+      },
+      {
+        "codigo": "708-94",
+        "inciso": "I-d",
+        "descricao": "Deixar de manter acesa a luz baixa de dia, no caso de motocicletas, motonetas e ciclomotores",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso I, Alínea d"
+      },
+      {
+        "codigo": "708-95",
+        "inciso": "I-e",
+        "descricao": "Deixar de manter acesa a luz baixa de dia, em rodovias de pista simples situadas fora dos perímetros urbanos, no caso de veículos desprovidos de luzes de rodagem diurna",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso I, Alínea e"
+      },
+      {
+        "codigo": "708-96",
+        "inciso": "III",
+        "descricao": "Deixar de manter a placa traseira iluminada, à noite",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 250, Inciso III"
+      },
+      {
+        "codigo": "708-97",
+        "inciso": "IV",
+        "descricao": "Deixar o veículo de transporte público coletivo de passageiros ou de escolares de manter a porta fechada",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": "retenção do veículo até a regularização",
+        "base_legal_completa": "CTB - Art. 250, Inciso IV"
+      }
+    ]
+  },
+  {
+    "artigo": 251,
+    "descricao": "Utilizar as luzes do veículo:",
+    "incisos": [
+      {
+        "codigo": "709-00",
+        "inciso": "I",
+        "descricao": "Utilizar o pisca-alerta, exceto em imobilizações ou situações de emergência",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 251, Inciso I"
+      },
+      {
+        "codigo": "709-01",
+        "inciso": "II",
+        "descricao": "Utilizar luz baixa e alta de forma intermitente, exceto nas seguintes situações permitidas:",
+        "alíneas": [
+          {
+            "descricao": "a curtos intervalos, quando for conveniente advertir a outro condutor que se tem o propósito de ultrapassá-lo"
+          },
+          {
+            "descricao": "em imobilizações ou situação de emergência, como advertência, utilizando pisca-alerta"
+          },
+          {
+            "descricao": "quando a sinalização de regulamentação da via determinar o uso do pisca-alerta"
+          }
+        ],
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 251, Inciso II"
+      }
+    ]
+  },
+  {
+    "artigo": 252,
+    "descricao": "Dirigir o veículo:",
+    "incisos": [
+      {
+        "codigo": "705-00",
+        "inciso": "I",
+        "descricao": "com o braço do lado de fora",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso I"
+      },
+      {
+        "codigo": "705-01",
+        "inciso": "II",
+        "descricao": "transportando pessoas, animais ou volume à sua esquerda ou entre os braços e pernas",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso II"
+      },
+      {
+        "codigo": "705-02",
+        "inciso": "III",
+        "descricao": "com incapacidade física ou mental temporária que comprometa a segurança do trânsito",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso III"
+      },
+      {
+        "codigo": "705-03",
+        "inciso": "IV",
+        "descricao": "usando calçado que não se firme nos pés ou que comprometa a utilização dos pedais",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso IV"
+      },
+      {
+        "codigo": "705-04",
+        "inciso": "V",
+        "descricao": "com apenas uma das mãos, exceto quando deva fazer sinais regulamentares de braço, mudar a marcha do veículo, ou acionar equipamentos e acessórios do veículo",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso V"
+      },
+      {
+        "codigo": "705-54",
+        "inciso": "V (Parágrafo único)",
+        "descricao": "com apenas uma das mãos, segurando ou manuseando telefone celular",
+        "gravidade": "gravíssima",
+        "penalidade": "multa",
+        "valor_multa": 293.47,
+        "pontos": 7,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso V, Parágrafo único"
+      },
+      {
+        "codigo": "705-05",
+        "inciso": "VI",
+        "descricao": "utilizando-se de fones nos ouvidos conectados a aparelhagem sonora ou de telefone celular",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso VI"
+      },
+      {
+        "codigo": "705-06",
+        "inciso": "VII",
+        "descricao": "realizando a cobrança de tarifa com o veículo em movimento",
+        "gravidade": "média",
+        "penalidade": "multa",
+        "valor_multa": 130.16,
+        "pontos": 4,
+        "medida_administrativa": null,
+        "base_legal_completa": "CTB - Art. 252, Inciso VII"
+      }
+    ]
+  },
+  {
+    "codigo": "706-00",
+    "artigo": 253,
+    "descricao": "Bloquear a via com veículo",
+    "gravidade": "gravíssima",
+    "penalidade": "multa e apreensão do veículo",
+    "valor_multa": 293.47,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 253"
+  },
+  {
+    "codigo": "706-20",
+    "artigo": "253-A",
+    "descricao": "Usar qualquer veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via sem autorização do órgão ou entidade de trânsito com circunscrição sobre ela",
+    "gravidade": "gravíssima",
+    "penalidade": "multa (vinte vezes) e suspensão do direito de dirigir por 12 (doze) meses",
+    "valor_multa": 5869.40,
+    "pontos": 7,
+    "medida_administrativa": "remoção do veículo",
+    "reincidencia": {
+      "condicao": "reincidência no período de até 12 meses",
+      "multa": "multa aplicada em dobro",
+      "valor_multa_reincidencia": 11738.80
+    },
+    "organizadores": {
+      "descricao": "Organizadores da conduta prevista no caput",
+      "multa": "multa agravada em 60 vezes",
+      "valor_multa_organizadores": 17608.20
+    },
+    "base_legal_completa": "CTB - Art. 253-A"
+  },
+  {
+    "artigo": 254,
+    "descricao": "É proibido ao pedestre:",
+    "incisos": [
+      {
+        "codigo": "701-10",
+        "inciso": "I",
+        "descricao": "permanecer ou andar nas pistas de rolamento, exceto para cruzá-las onde for permitido",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso I"
+      },
+      {
+        "codigo": "701-20",
+        "inciso": "II",
+        "descricao": "cruzar pistas de rolamento nos viadutos, pontes ou túneis, salvo onde exista permissão",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso II"
+      },
+      {
+        "codigo": "701-30",
+        "inciso": "III",
+        "descricao": "atravessar a via dentro das áreas de cruzamento, salvo quando houver sinalização para esse fim",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso III"
+      },
+      {
+        "codigo": "701-40",
+        "inciso": "IV",
+        "descricao": "utilizar-se da via em agrupamentos capazes de perturbar o trânsito, ou para a prática de qualquer folguedo, esporte, desfiles e similares, salvo em casos especiais e com a devida licença da autoridade competente",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso IV"
+      },
+      {
+        "codigo": "701-50",
+        "inciso": "V",
+        "descricao": "andar fora da faixa própria, passarela, passagem aérea ou subterrânea",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso V"
+      },
+      {
+        "codigo": "701-60",
+        "inciso": "VI",
+        "descricao": "desobedecer à sinalização de trânsito específica",
+        "gravidade": "leve",
+        "penalidade": "multa (50% do valor da infração de natureza leve)",
+        "valor_multa": 44.19,
+        "pontos": 0,
+        "medida_administrativa": null,
+        "reincidencia": null,
+        "base_legal_completa": "CTB - Art. 254, Inciso VI"
+      }
+    ]
+  },
+  {
+    "codigo": "703-00",
+    "artigo": 255,
+    "descricao": "Conduzir bicicleta em passeios onde não seja permitida a circulação desta, ou de forma agressiva, em desacordo com o disposto no parágrafo único do art. 59",
+    "gravidade": "média",
+    "penalidade": "multa",
+    "valor_multa": 130.16,
+    "pontos": 4,
+    "medida_administrativa": "remoção da bicicleta, mediante recibo para o pagamento da multa",
+    "reincidencia": null,
+    "base_legal_completa": "CTB - Art. 255"
+  }
+]
