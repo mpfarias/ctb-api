@@ -6,6 +6,7 @@
 ![Express](https://img.shields.io/badge/Express.js-API-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![CI](https://github.com/mpfarias/ctb-api/actions/workflows/nodejs.yml/badge.svg)
 
 Esta é uma API pública que fornece as infrações previstas no Código de Trânsito Brasileiro (CTB), estruturadas em JSON, com base legal, pontuação, valores e medidas administrativas. Desenvolvida com Node.js, Express e documentada com Swagger.
 
