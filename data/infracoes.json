@@ -12,7 +12,7 @@
         "valor_multa": 880.41,
         "pontos": 7,
         "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso I"
+        "base_legal_completa": "CTB - Art. 162, Inciso I"
       },
       {
         "inciso": "II",
@@ -23,7 +23,7 @@
         "valor_multa": 880.41,
         "pontos": 7,
         "medida_administrativa": "recolhimento do documento de habilitação e retenção do veículo até a apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso II"
+        "base_legal_completa": "CTB - Art. 162, Inciso II"
       },
       {
         "inciso": "III",
@@ -34,7 +34,7 @@
         "valor_multa": 586.94,
         "pontos": 7,
         "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso III"
+        "base_legal_completa": "CTB - Art. 162, Inciso III"
       },
       {
         "inciso": "V",
@@ -45,7 +45,7 @@
         "valor_multa": 880.41,
         "pontos": 7,
         "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso V"
+        "base_legal_completa": "CTB - Art. 162, Inciso V"
       },
       {
         "inciso": "VI",
@@ -56,7 +56,7 @@
         "valor_multa": 880.41,
         "pontos": 7,
         "medida_administrativa": "retenção do veículo até o saneamento da irregularidade ou apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso VI"
+        "base_legal_completa": "CTB - Art. 162, Inciso VI"
       },
       {
         "inciso": "VII",
@@ -67,7 +67,7 @@
         "valor_multa": 880.41,
         "pontos": 7,
         "medida_administrativa": "retenção do veículo até a apresentação de condutor habilitado",
-        "base_legal_completa": "CTB - Art. 164, Inciso VII"
+        "base_legal_completa": "CTB - Art. 162, Inciso VII"
       }
     ]
   },
