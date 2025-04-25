@@ -18,7 +18,7 @@ const limiter = rateLimit({
   legacyHeaders: false // Desativa headers antigos (X-RateLimit-*)
 })
 
-app.use(limiter) // Aplica globalmente o rate limit
+app.use(limiter)
 app.use(express.json())
 
 app.get('/', (req, res) => {

@@ -1,24 +1,55 @@
-# 🚦 API CTB - Infrações do Código de Trânsito Brasileiro
 
-Esta é uma API pública para consulta de infrações do CTB (Código de Trânsito Brasileiro), construída com Node.js, Express e documentada com Swagger.
+# API de Infrações do CTB
 
-## 🧰 Tecnologias utilizadas
+![Status](https://img.shields.io/website?url=https://ctb-api.onrender.com&label=API%20Online&style=flat)
+![Node.js](https://img.shields.io/badge/Node.js-ESM-green)
+![Express](https://img.shields.io/badge/Express.js-API-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 
-- Node.js
-- Express
-- Swagger (swagger-ui-express + swagger-jsdoc)
-- ESM (ECMAScript Modules)
+Esta é uma API pública que fornece as infrações previstas no Código de Trânsito Brasileiro (CTB), estruturadas em JSON, com base legal, pontuação, valores e medidas administrativas. Desenvolvida com Node.js, Express e documentada com Swagger.
 
-## 🔗 Rotas disponíveis
+## 🔗 Links
 
-- `GET /infracoes` – Lista todas as infrações
-- `GET /infracoes/:codigo` – Consulta por código de infração
-- `GET /api-docs` – Acesso à documentação Swagger
+- [API Principal](https://ctb-api.onrender.com)
+- [Documentação Swagger](https://ctb-api.onrender.com/api-docs)
 
-## 🚀 Como rodar localmente
+## 📦 Tecnologias Utilizadas
+
+- Node.js + Express (ESM)
+- Swagger UI (documentação)
+- express-rate-limit (controle de requisições)
+- morgan (log de requisições)
+- node-cache (cache em memória)
+
+## 📖 Endpoints Disponíveis
+
+### `GET /infracoes`
+Lista todas as infrações disponíveis no CTB.
+
+### `GET /infracoes/:artigo`
+Retorna os dados da infração com base no número do artigo.
+
+### `GET /infracoes/codigo/:codigo`
+Retorna a infração com base no código RENAINF.
+
+## 🛡️ Segurança e Performance
+
+- Limite de requisições: 60 por minuto por IP (Rate Limit).
+- Cache em memória por 5 minutos para resposta rápida e escalável.
+- Logs de todas as requisições com Morgan.
+
+## ⚙️ Como Rodar Localmente
 
 ```bash
-git clone https://github.com/mpfarias/ctb-api.git
-cd ctb-api
+git clone <url>
+cd nome-do-repo
 npm install
-npm run dev
+node app.js
+```
+
+Acesse em: http://localhost:3000
+
+## 📝 Licença
+
+Este projeto está licenciado sob a licença MIT. Use livremente para fins educativos ou informativos.
