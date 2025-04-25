@@ -20,7 +20,9 @@ const limiter = rateLimit({
 
 app.use(limiter)
 app.use(express.json())
-app.use(morgan('dev'))
+if (process.env.CI !== 'true') {
+  app.use(morgan('dev'))
+}
 
 app.get('/', (req, res) => {
   res.send('Infrações CTB!\nGET /infracoes - Lista todas as infrações disponíveis no CTB.\nGET /infracoes/:artigo - Retorna os dados da infração com base no número do artigo.\nGET /infracoes/codigo/:codigo - Retorna a infração com base no código RENAINF.')
