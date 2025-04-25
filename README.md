@@ -42,7 +42,7 @@ Retorna a infração com base no código RENAINF.
 ## ⚙️ Como Rodar Localmente
 
 ```bash
-git clone <url>
+git clone https://github.com/mpfarias/ctb-api
 cd nome-do-repo
 npm install
 node app.js
